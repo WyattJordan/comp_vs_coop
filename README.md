@@ -22,7 +22,7 @@ Let's begin by calculating the number of competitive and cooperative relationshi
 Note: this formula is a specific case (<img src="https://latex.codecogs.com/gif.latex?k=2"/>) of the general combination formula for taking <img src="https://latex.codecogs.com/gif.latex?k"/> elements out of a set of <img src="https://latex.codecogs.com/gif.latex?n"/> which is
 <p align="center">
  <img src="https://latex.codecogs.com/gif.latex?\binom{n}{k} = \frac{n!}{k!*(n-k)!"/>
-<\p>
+
 
 The total number of cooperative links is therefore:
 <p align="center">
