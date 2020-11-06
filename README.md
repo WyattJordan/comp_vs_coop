@@ -33,18 +33,18 @@ Now to count the number of competitive relationships let's again assume both tea
 
 
 <p align="center">
- <img src="https://latex.codecogs.com/gif.latex?n_{i\_comp}=\sum_{k\nei}^{n_{teams}}n_i*n_k"/>
+ <img src="https://latex.codecogs.com/gif.latex?n_{i\_comp}=\sum_{k\ne i}^{n_{teams}}n_i*n_k"/>
 
 And again we sum this summation for every team but don't count relationships twice. The equivalent double summation on the right is how this formula is actully implemented on line 21 of calc.py.
 <p align="center">
- <img src="https://latex.codecogs.com/gif.latex?n_{comp}  =  \frac{1}{2} \sum_{i=1}^{n_{teams}} \sum_{k \ne i}^{n_{teams}} n_i*n_k  =  \sum_{i=1}^{n_{teams}} \sum_{k=i+1}^{n_{teams}} n_i*n_k"/>
+ <img src="https://latex.codecogs.com/gif.latex?n_{comp}=\frac{1}{2}\sum_{i=1}^{n_{teams}}\sum_{k\ne i}^{n_{teams}}n_i*n_k=\sum_{i=1}^{n_{teams}} \sum_{k=i+1}^{n_{teams}}n_i*n_k"/>
 <\p>  
 
 
 For indicating if the set of teams is more cooperative or competitive we will simply use a "friendly" score set by:
 
 <p align="center">
- <img src="https://latex.codecogs.com/gif.latex?s_{f} = \frac{n_{coop}}{n_{comp}}"/>
+ <img src="https://latex.codecogs.com/gif.latex?s_{f}=\frac{n_{coop}}{n_{comp}}"/>
 <\p>
 
 
@@ -53,7 +53,7 @@ Let's examine some special cases for two equal size teams before generalizing.
 ### Perfectly Competitive
 If each team has only one player then there is only one relationship and that relationship is competitive. This is the "unhappy marriage" case.
 ### Twice as Competitive as Cooperative
-If each team has two players there are only 2 cooperative links (one per team) and 4 total competitive links which results in <img src="https://latex.codecogs.com/gif.latex?s_{f} = 0.5"/>. Think spikeball.
+If each team has two players there are only 2 cooperative links (one per team) and 4 total competitive links which results in <img src="https://latex.codecogs.com/gif.latex?s_{f}=0.5"/>. Think spikeball.
 <p align="center">
  <img src="https://cdn.shopify.com/s/files/1/0152/1325/files/SPIKEBALL_2016_COMBO_0878.jpg?v=1576690897" width="480" height="320"/>
 <\p>
@@ -61,7 +61,7 @@ If each team has two players there are only 2 cooperative links (one per team) a
 ### General Case
 With two teams of equal size the friendly score asymptotically approaches 1 as the team size increases but it will never be greater than 1. If you simplify the equations above with two teams of equal size you end up with a friendly score:  
 <p align="center">  
- <img src="https://latex.codecogs.com/gif.latex?s_{f} = \frac{n*(n-1)}{n^2}"/>  
+ <img src="https://latex.codecogs.com/gif.latex?s_{f}=\frac{n*(n-1)}{n^2}"/>  
 <\p>  
 
 In a world of equal size teams there will always be more competition than cooperation.
