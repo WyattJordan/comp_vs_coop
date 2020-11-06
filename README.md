@@ -15,7 +15,7 @@ Let's do some data visualization to find out (PSA: the methods used are a gross 
 Let's begin by calculating the number of competitive and cooperative relationships between a set of teams.The number of cooperative relationships in team <img src="https://latex.codecogs.com/gif.latex?i"/> with size <img src="https://latex.codecogs.com/gif.latex?n_i"/> is <img src="https://latex.codecogs.com/gif.latex?n_{i\_coop}"/> which can be calculated as the number of links in the network of team members where every member is a node connected to all other members (a perfectly dense graph).  
 
 
-<img src="https://latex.codecogs.com/gif.latex?n_{i\_coop}=\frac{n_i*(n_i-1)}{2}"\>
+<img src="https://latex.codecogs.com/gif.latex?n_{i\_coop}=\frac{n_i*(n_i-1)}{2}"/>
 
 
 
