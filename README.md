@@ -21,21 +21,19 @@ Let's begin by calculating the number of competitive and cooperative relationshi
 
 Note: this formula is a specific case (<img src="https://latex.codecogs.com/gif.latex?k=2"/>) of the general combination formula for taking <img src="https://latex.codecogs.com/gif.latex?k"/> elements out of a set of <img src="https://latex.codecogs.com/gif.latex?n"/> which is
 <p align="center">
- <img src="https://latex.codecogs.com/gif.latex?\binom{n}{k} = \frac{n!}{k!*(n-k)!"/>
+ <img src="https://latex.codecogs.com/gif.latex?\binom{n}{k}=\frac{n!}{k!*(n-k)!"/>
 
 
 The total number of cooperative links is therefore:
 <p align="center">
- <img src="https://latex.codecogs.com/gif.latex?n_{coop} = \sum_{i=1}^{n_{teams}} n_{i\_coop}"/>
-<\p>
+ <img src="https://latex.codecogs.com/gif.latex?n_{coop}=\sum_{i=1}^{n_{teams}}n_{i\_coop}"/>
 
 
 Now to count the number of competitive relationships let's again assume both teams are fully connected graphs, meaning every team member has a competitive relationship with every member of an opposing team. Therefore the number of competitve relationships for team <img src="https://latex.codecogs.com/gif.latex?i"/> is the summation of the product of <img src="https://latex.codecogs.com/gif.latex?n_i"/> with every other team size:
 
 
 <p align="center">
- <img src="https://latex.codecogs.com/gif.latex?n_{i\_comp} = \sum_{k \ne i}^{n_{teams}} n_i*n_k"/>
-<\p>  
+ <img src="https://latex.codecogs.com/gif.latex?n_{i\_comp}=\sum_{k\nei}^{n_{teams}}n_i*n_k"/>
 
 And again we sum this summation for every team but don't count relationships twice. The equivalent double summation on the right is how this formula is actully implemented on line 21 of calc.py.
 <p align="center">
