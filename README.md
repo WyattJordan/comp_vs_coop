@@ -1,17 +1,11 @@
-# Is the world in harmony or discord?
 # Are humans inherently good or evil?
 In order to find out let's accept some absurd premises:
 1. Goodness is embodied by partnering with others regardless of motivation (i.e. cooperation)
 2. Evil is embodied by resisting others regardless of motivation (i.e. competition)
-3. Relationships between
-3. If there is more cooperation in the world than competition
+3. There is an even distribution of cooperative and competitive relationships in a population (i.e. if there is more cooperation than competition in the whole population then most individuals also have more cooperation than competition).
+4. A person is considered "good" if they are more cooperative than competitive with others and evil otherwise.
 
-good intro  
-"some of us lie awake at night wondering different things..."  
-"is the world more friendly or aggressive?"  
-Let's do some data visualization to find out (PSA: the methods used are a gross oversimplification).
-
-# How
+# How can we calculate this?
 Let's begin by calculating the number of competitive and cooperative relationships between a set of teams.The number of cooperative relationships in team <img src="https://latex.codecogs.com/gif.latex?i"/> with size <img src="https://latex.codecogs.com/gif.latex?n_i"/> is <img src="https://latex.codecogs.com/gif.latex?n_{i\_coop}"/> which can be calculated as the number of links in the network of team members where every member is a node connected to all other members (a perfectly dense graph).  
 
 <p align="center">
@@ -60,16 +54,33 @@ With two teams of equal size the friendly score asymptotically approaches 1 as t
 <p align="center">  
  <img src="https://latex.codecogs.com/gif.latex?s_{f}=\frac{n*(n-1)}{n^2}"/>  
 
-In a world of equal size teams there will always be more competition than cooperation.
+In a world of two roughly equal size teams there will always be more competition than cooperation. Yay politics.  
 <p align="center">
-<img src="/img/2teams_equal.png" />  
+<img src="/img/2teams_equal.png" width=600, height=375/>  
 
-## But what happens with differing team sizes?
-With teams of 
-Teams between 10 and 50 players have a 66.25% chance of being more coop than comp (using uniform distribution even though we should use gaussian if we actually cared about trying to model this accurately)
+# What About Two Variable Size Teams? 
+Modeling for two teams, between 10 and 50 members each, results in the following graph.
+<p align="center">
+<img src="/img/2variable_teams.jpeg" width=600, height=375/>  
 
-Teams between 1 and 500 players have a 91.76% chance of being more coop than comp. Again this is probably unrealistic since real-world teams would probably be close to the same size. I can't think of a sport with a team of 2 facing 500.
+A better visualization with a different color mapping for instances where <img src="https://latex.codecogs.com/gif.latex?s_{f}<1.0"/>
+<p align="center">
+<img src="/img/2teams.gif" width=600, height=375/>
 
-Teams 1-250 have 88.44% chance
+If the size of the two teams is chosen uniformly at random then for teams between 10 and 50 players <p align="center">	
+<img src="https://latex.codecogs.com/gif.latex?n_i \in [1..250] \rightarrow P(s_{f} > 1.0) = 0.6625"/>.
+
+(A uniform distribution is a terrible choice here, a [multivariate Gaussian](https://en.wikipedia.org/wiki/Multivariate_normal_distribution) would be more appropriate and result in a lower probability).  
+
+As the maximum potential size of the two teams increases so does the probablility that a randomly selected set of team sizes will have <img src="https://latex.codecogs.com/gif.latex?s_{f}>1.0"/>. Here are two more examples.
+
+<p align="center">	
+<img src="https://latex.codecogs.com/gif.latex?n_i \in [1..250] \rightarrow P(s_{f} > 1.0) = 0.8844"/>
+<p align="center">	
+<img src="https://latex.codecogs.com/gif.latex?n_i \in [1..500] \rightarrow P(s_{f} > 1.0) = 0.9176"/>
+
+The asymptotic curve [plotted previously](https://github.com/WyattJordan/comp_vs_coop#general-case) for two equal size teams should be hidden in the purple region here where <img src="https://latex.codecogs.com/gif.latex?s_{f}<1.0"/>. Zooming in to this region proves it's still there (it's the lowest edge along the surface).  
+<p align="center">
+<img src="/img/2teams_uncooperative.gif" width=600, height=375/>
 
 
