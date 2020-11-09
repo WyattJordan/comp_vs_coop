@@ -68,19 +68,19 @@ A better visualization with a different color mapping for instances where <img s
 <img src="/img/2teams.gif" width=600, height=375/>
 
 If the size of the two teams is chosen uniformly at random then for teams between 10 and 50 players <p align="center">	
-<img src="https://latex.codecogs.com/gif.latex?n_i \in [1..250] \rightarrow P(s_{f} > 1.0) = 0.6625"/>.
+<img src="https://latex.codecogs.com/gif.latex?n_i\in[1..250]\rightarrow{P(s_{f}>1.0)} = 0.6625"/>.
 
 (A uniform distribution is a terrible choice here, a [multivariate Gaussian](https://en.wikipedia.org/wiki/Multivariate_normal_distribution) would be more appropriate and result in a lower probability).  
 
 As the maximum potential size of the two teams increases so does the probablility that a randomly selected set of team sizes will have <img src="https://latex.codecogs.com/gif.latex?s_{f}>1.0"/>. Here are two more examples.
 
 <p align="center">	
-<img src="https://latex.codecogs.com/gif.latex?n_i \in [1..250] \rightarrow P(s_{f} > 1.0) = 0.8844"/>
+<img src="https://latex.codecogs.com/gif.latex?n_i\in[1..250]\rightarrow{P(s_{f}>1.0)}=0.8844"/>
 <p align="center">	
-<img src="https://latex.codecogs.com/gif.latex?n_i \in [1..500] \rightarrow P(s_{f} > 1.0) = 0.9176"/>
+<img src="https://latex.codecogs.com/gif.latex?n_i\in[1..500]\rightarrow{P(s_{f}>1.0)}=0.9176"/>
 
 The asymptotic curve [plotted previously](https://github.com/WyattJordan/comp_vs_coop#general-case) for two equal size teams should be hidden in the purple region here where <img src="https://latex.codecogs.com/gif.latex?s_{f}<1.0"/>. Zooming in to this region proves it's still there (it's the lowest edge along the surface).  
 <p align="center">
 <img src="/img/2teams_uncooperative.gif" width=600, height=375/>
-
+     
 
