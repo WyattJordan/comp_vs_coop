@@ -68,7 +68,7 @@ A better visualization with a different color mapping for instances where <img s
 <img src="/img/2teams.gif" width=600, height=375/>
 
 If the size of the two teams is chosen uniformly at random (which is a gross oversimplification, really a [multivariate Gaussian](https://en.wikipedia.org/wiki/Multivariate_normal_distribution) would be more appropriate) then for teams between 10 and 50 players <p align="center">	
-<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.6625\leftarrow{n_i\in[1..50]}"/>.
+<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.6625\leftarrow{n_i\in[1..50]}"/>
 
 As the maximum potential size of the two teams increases so does the probablility that a randomly selected set of team sizes will have <img src="https://latex.codecogs.com/gif.latex?s_{f}>1.0"/>. Here are two more examples.
 
@@ -82,9 +82,13 @@ The asymptotic curve [plotted previously](https://github.com/WyattJordan/comp_vs
 <img src="/img/2teams_uncooperative.gif" width=600, height=375/>
      
 # What About Three Variable Size Teams?
+<p align="center">
 Ask and you shall receive. Higher friendliness scores are lighter color points.
+<p align="center">
+<img src="/img/three_teams_formatted.jpeg" width=600, height=429/>
 
-| Full Plot | Only s_f < 1.0|
-| --------- | ------------- |
-| <img src="/img/2teams.gif" width=600, height=375/>  | <img src="/img/2teams_uncooperative.gif" width=600, height=375/> |
+<p align="center">
+The tesseract in motion.
+<p align="center">  
+<img src="/img/three_teams_comp.gif" width=600, height=429/>
 
