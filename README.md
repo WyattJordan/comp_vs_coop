@@ -94,7 +94,7 @@ The tesseract in motion.
 
 The probability of a randomly selected set of team sizes such that <img src="https://latex.codecogs.com/gif.latex?s_{f}>1.0"/> drops drastically when three teams are involved. In this case the probability becomes
 <p align="center">	
-<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.001875\leftarrow{n_i\in[10..50],i\in[1..3]}"/>
+<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.00188\leftarrow{n_i\in[10..50],i\in[1..3]}"/>
 
 <p align="center">	
 Plotting only instances where <img src="https://latex.codecogs.com/gif.latex?s_{f}>1.0"/>
