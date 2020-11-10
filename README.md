@@ -68,14 +68,14 @@ A better visualization with a different color mapping for instances where <img s
 <img src="/img/2teams.gif" width=600, height=375/>
 
 If the size of the two teams is chosen uniformly at random (which is a gross oversimplification, really a [multivariate Gaussian](https://en.wikipedia.org/wiki/Multivariate_normal_distribution) would be more appropriate) then for teams between 10 and 50 players <p align="center">	
-<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.6625\leftarrow{n_i\in[1..50]}"/>
+<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.6625\leftarrow{n_i\in[1..50],i\in[1..2]}"/>
 
 As the maximum potential size of the two teams increases so does the probablility that a randomly selected set of team sizes will have <img src="https://latex.codecogs.com/gif.latex?s_{f}>1.0"/>. Here are two more examples.
 
 <p align="center">	
-<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.8844\leftarrow{n_i\in[1..250]}"/>
+<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.8844\leftarrow{n_i\in[1..250],i\in[1..2]}"/>
 <p align="center">	
-<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.9176\leftarrow{n_i\in[1..500]}"/>
+<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.9176\leftarrow{n_i\in[1..500],i\in[1..2]}"/>
 
 The asymptotic curve [plotted previously](https://github.com/WyattJordan/comp_vs_coop#general-case) for two equal size teams should be hidden in the purple region here where <img src="https://latex.codecogs.com/gif.latex?s_{f}<1.0"/>. Zooming in to this region proves it's still there (it's the lowest edge along the surface).  
 <p align="center">
@@ -92,3 +92,38 @@ The tesseract in motion.
 <p align="center">  
 <img src="/img/three_teams_comp.gif" width=600, height=429/>
 
+The probability of a randomly selected set of team sizes such that <img src="https://latex.codecogs.com/gif.latex?s_{f}>1.0"/> drops drastically when three teams are involved. In this case the probability becomes
+<p align="center">	
+<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.001875\leftarrow{n_i\in[10..50],i\in[1..3]}"/>
+
+<p align="center">	
+Plotting only instances where <img src="https://latex.codecogs.com/gif.latex?s_{f}>1.0"/>
+<p align="center">  
+<img src="/img/three_teams_coop.jpeg" width=600, height=429/>
+
+Increasing the potential team size for three different teams also increases the probability that a randomly selected set of team sizes will have <img src="https://latex.codecogs.com/gif.latex?s_{f}>1.0"/> 
+<p align="center">	
+<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.04101\leftarrow{n_i\in[10..100],i\in[1..3]}"/>
+<p align="center">	
+<img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.10054\leftarrow{n_i\in[10..250],i\in[1..3]}"/>
+
+
+# What About Real World Data?
+If we use the size of each fanbase for various sports leagues we can rank which have the highest amount of cooperation relative to competition. Sources gathered from [stadium-maps](http://www.stadium-maps.com) based on social media data.
+| Sports League   | Friendliness Score | Number of Teams |
+| -------------   | ------------------ | --------------- |
+|Premier  Soccer  | 0.1989             | 20      |
+|MLS              | 0.1023             | 26      |
+|NBA              | 0.0716             | 30      |
+|NHL              | 0.0538             | 31      |
+|NFL              | 0.0446             | 32      |
+
+The friendliness score decreases as the number of teams increases which is consistent with the probabilities calculated above.  
+
+# What About Partial Cooperation Between Competing Teams?
+But even in competition there can be cooperation. Tournaments often provide opportunities for competiting teams to support one another in defeating a more formidable opponent. So let's edit our equations to account for this. 
+
+
+# What About a Real World Example?
+
+# What About a Conclusion

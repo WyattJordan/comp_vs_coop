@@ -30,17 +30,24 @@ from calc import coop_vs_comp
 from equal import equal_teams
 from two_teams import variable_sizes
 from three_teams import heatmap
+from sports import sports_leagues
 def main():
 
     # Equal team sizes
-    equal_teams()
+    # equal_teams()
 
     # Unequal various sizes
     # variable_sizes(animate="uncoooperative_teams", plot_low_scorers=False)
     # variable_sizes(plot_low_scorers=False)    
 
     # Three variable teams
-    # heatmap(gif=False, text=True)
+    # heatmap(gif=True, text=False)
+    # heatmap(plot=False, min_s=10, max_s=50)
+    # heatmap(plot=False, min_s=10, max_s=100)
+    # heatmap(plot=False, min_s=10, max_s=250)
+
+    # Sports data
+    sports_leagues()
     
 if __name__ == "__main__":
     main()
