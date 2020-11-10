@@ -31,6 +31,8 @@ from equal import equal_teams
 from two_teams import variable_sizes
 from three_teams import heatmap
 from sports import sports_leagues
+from nations import democracy
+
 def main():
 
     # Equal team sizes
@@ -47,8 +49,10 @@ def main():
     # heatmap(plot=False, min_s=10, max_s=250)
 
     # Sports data
-    sports_leagues()
-    
+    # sports_leagues()
+
+    # Nation data
+    democracy()
 if __name__ == "__main__":
     main()
 

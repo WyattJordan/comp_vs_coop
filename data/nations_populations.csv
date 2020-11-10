@@ -1,0 +1,243 @@
+Rank,Country,Population,% of world,Date,Source(official or UN)
+1,China,1405253600,18.0%,10 Nov 2020,National population clock
+2,India,1369474506,17.5%,10 Nov 2020,National population clock
+3,United States,330623488,4.22%,10 Nov 2020,National population clock
+4,Indonesia,269603400,3.44%,1 Jul 2020,National annual projection
+5,Pakistan,220892331,2.82%,1 Jul 2020,UN Projection
+6,Brazil,212316399,2.71%,10 Nov 2020,National population clock
+7,Nigeria,206139587,2.63%,1 Jul 2020,UN Projection
+8,Bangladesh,169620892,2.17%,10 Nov 2020,National population clock
+9,Russia,146748590,1.88%,1 Jan 2020,National annual estimate
+10,Mexico,127792286,1.63%,1 Jul 2020,National annual projection
+11,Japan,125880000,1.61%,1 Oct 2020,Monthly national estimate
+12,Philippines,109411000,1.40%,10 Nov 2020,National population clock
+13,DR Congo,101935800,1.30%,1 Jul 2020,National annual projection
+14,Egypt,101160057,1.29%,10 Nov 2020,National population clock
+15,Ethiopia,100829000,1.29%,1 Jul 2020,National annual projection
+16,Vietnam,96483981,1.23%,1 Jul 2019,National annual estimate
+17,Iran,83936724,1.07%,10 Nov 2020,National population clock
+18,Turkey,83154997,1.06%,31 Dec 2019,National annual estimate
+19,Germany,83122889,1.06%,30 Jun 2020,National quarterly estimate
+20,France,67146000,0.858%,1 Oct 2020,Monthly national estimate
+21,United Kingdom,66796807,0.854%,30 Jun 2019,National annual estimate
+22,Thailand,66574630,0.851%,10 Nov 2020,National population clock
+23,Italy,60026546,0.767%,30 Jun 2020,Monthly national estimate
+24,South Africa,59622350,0.762%,1 Jul 2020,National annual estimate
+25,Tanzania,57637628,0.736%,1 Jul 2020,National annual projection
+26,Myanmar,54817919,0.700%,1 Jul 2020,National annual projection
+27,South Korea,51841786,0.662%,1 Sep 2020,Monthly national estimate
+28,Colombia,50372424,0.644%,30 Jun 2020,National annual projection
+29,Kenya,47564296,0.608%,31 Aug 2019,2019 census result
+30,Spain,47329981,0.605%,1 Jan 2020,National semi-annual estimate
+31,Argentina,45376763,0.580%,1 Jul 2020,National annual projection
+32,Algeria,43900000,0.561%,1 Jan 2020,National annual projection
+33,Sudan,42978110,0.549%,10 Nov 2020,National population clock
+34,Ukraine,41723998,0.533%,1 Sep 2020,Monthly national estimate
+35,Uganda,41583600,0.531%,1 Jul 2020,National annual projection
+36,Iraq,40150200,0.513%,1 Jul 2020,National annual projection
+37,Poland,38352000,0.490%,31 Aug 2020,Monthly national estimate
+38,Canada,38238767,0.489%,10 Nov 2020,National population clock
+39,Morocco,36070777,0.461%,10 Nov 2020,National population clock
+40,Uzbekistan,34516459,0.441%,10 Nov 2020,National population clock
+41,Saudi Arabia,34218169,0.437%,1 Jul 2019,National annual estimate
+42,Afghanistan,32890171,0.420%,1 Jul 2020,National annual estimate
+43,Malaysia,32706140,0.418%,10 Nov 2020,National population clock
+44,Peru,32625948,0.417%,1 Jul 2020,National annual projection
+45,Angola,31127674,0.398%,30 Jun 2020,National annual projection
+46,Ghana,30955202,0.396%,1 Jul 2020,National annual projection
+47,Mozambique,30066648,0.384%,1 Jul 2020,National annual projection
+48,Nepal,29996478,0.383%,1 Jul 2020,National annual projection
+49,Yemen,29825968,0.381%,1 Jul 2020,UN Projection
+50,Venezuela,28435943,0.363%,1 Jul 2020,UN Projection
+51,Ivory Coast,26453542,0.338%,1 Jul 2020,National annual projection
+52,Madagascar,26251309,0.335%,1 Jul 2020,National annual projection
+53,Australia,25695017,0.328%,10 Nov 2020,National population clock
+54,North Korea,25550000,0.326%,1 Jul 2020,National annual projection
+55,Cameroon,24348251,0.311%,1 Jul 2019,National annual projection
+–,Taiwan,23568378,0.301%,30 Sep 2020,Monthly national estimate
+56,Niger,23196002,0.296%,1 Jul 2020,National annual projection
+57,Sri Lanka,21803000,0.279%,1 Jul 2019,National annual estimate
+58,Burkina Faso,21510181,0.275%,1 Jul 2020,National annual projection
+59,Mali,20250833,0.259%,1 Jul 2020,UN Projection
+60,Chile,19458310,0.249%,30 Jun 2020,National annual projection
+61,Romania,19317984,0.247%,1 Jan 2020,National annual estimate
+62,Kazakhstan,18811224,0.240%,10 Nov 2020,National population clock
+63,Malawi,18449828,0.236%,1 Jul 2020,National annual projection
+64,Zambia,17885422,0.229%,1 Jul 2020,National annual projection
+65,Ecuador,17606796,0.225%,10 Nov 2020,National population clock
+66,Netherlands,17528731,0.224%,10 Nov 2020,National population clock
+67,Syria,17500657,0.224%,1 Jul 2020,UN Projection
+68,Guatemala,16858333,0.215%,1 Jul 2020,National annual projection
+69,Senegal,16705608,0.213%,1 Jul 2020,National annual projection
+70,Chad,16244513,0.208%,1 Jul 2020,National annual projection
+71,Somalia,15893219,0.203%,1 Jul 2020,UN Projection
+72,Zimbabwe,15473818,0.198%,1 Jul 2020,National annual projection
+73,Cambodia,15288489,0.195%,3 Mar 2019,Provisional 2019 census result
+74,South Sudan,13249924,0.169%,1 Jul 2020,National annual projection
+75,Rwanda,12663116,0.162%,1 Jul 2020,National annual projection
+76,Guinea,12559623,0.160%,1 Jul 2020,National annual projection
+77,Burundi,12309600,0.157%,1 Jul 2020,National annual projection
+78,Benin,12114193,0.155%,1 Jul 2020,National annual projection
+79,Haiti,11743017,0.150%,1 Jul 2020,National annual projection
+80,Tunisia,11708370,0.150%,1 Jan 2020,National semi-annual estimate
+81,Bolivia,11633371,0.149%,1 Jul 2020,National annual projection
+82,Belgium,11539878,0.147%,1 Sep 2020,Monthly national estimate
+83,Cuba,11193470,0.143%,31 Dec 2019,National annual estimate
+84,Jordan,10810124,0.138%,10 Nov 2020,National population clock
+85,Greece,10724599,0.137%,1 Jan 2019,National annual estimate
+86,Czech Republic,10699142,0.137%,30 Jun 2020,National quarterly estimate
+87,Dominican Republic,10448499,0.134%,1 Jul 2020,National annual projection
+88,Sweden,10367232,0.132%,31 Aug 2020,Monthly national estimate
+89,Portugal,10295909,0.132%,31 Dec 2019,National annual estimate
+90,Azerbaijan,10095900,0.129%,1 Jul 2020,Monthly national estimate
+91,Hungary,9769526,0.125%,1 Jan 2020,National annual estimate
+92,Belarus,9408400,0.120%,1 Jan 2020,National annual estimate
+93,United Arab Emirates,9366829,0.120%,1 Jul 2018,National annual estimate
+94,Tajikistan,9313800,0.119%,1 Jan 2020,National annual estimate
+95,Honduras,9304380,0.119%,1 Jul 2020,National annual projection
+96,Israel,9276700,0.119%,10 Nov 2020,National population clock
+97,Papua New Guinea,8935000,0.114%,1 Jul 2020,National annual projection
+98,Austria,8915382,0.114%,1 Jul 2020,National quarterly estimate
+99,Switzerland,8632703,0.110%,30 Jun 2020,National quarterly estimate
+100,Sierra Leone,8100318,0.104%,1 Jul 2020,National annual projection
+101,Togo,7706000,0.0985%,1 Jul 2020,National annual projection
+–,Hong Kong,7509200,0.0960%,30 Jun 2020,National semi-annual estimate
+102,Paraguay,7252672,0.0927%,1 Jul 2020,National annual projection
+103,Laos,7231210,0.0924%,1 Jul 2020,National annual projection
+104,Bulgaria,6951482,0.0888%,31 Dec 2019,National annual estimate
+105,Serbia,6926705,0.0885%,1 Jan 2020,National annual estimate
+106,Libya,6871287,0.0878%,1 Jul 2020,UN Projection
+107,Lebanon,6825442,0.0872%,1 Jul 2020,UN Projection
+108,El Salvador,6765753,0.0865%,1 Jul 2020,National annual projection
+109,Kyrgyzstan,6596500,0.0843%,1 Sep 2020,Monthly national estimate
+110,Nicaragua,6527691,0.0834%,30 Jun 2019,National annual estimate
+111,Turkmenistan,6031187,0.0771%,1 Jul 2020,UN Projection
+112,Denmark,5825337,0.0744%,1 Jul 2020,National quarterly estimate
+113,Singapore,5685807,0.0727%,30 Jun 2020,National annual estimate
+114,Central African Republic,5633412,0.0720%,1 Jul 2020,National annual projection
+115,Congo,5518092,0.0705%,1 Jul 2020,UN Projection
+116,Finland,5503335,0.0703%,30 Sep 2020,Monthly national estimate
+117,Slovakia,5460136,0.0698%,30 Jun 2020,National quarterly estimate
+118,Norway,5374807,0.0687%,1 Jul 2020,National quarterly estimate
+119,Costa Rica,5111238,0.0653%,30 Jun 2020,National annual projection
+120,Palestine,5101152,0.0652%,1 Jul 2020,National annual projection
+121,New Zealand,5095100,0.0651%,10 Nov 2020,National population clock
+122,Ireland,4977400,0.0636%,1 Apr 2020,National annual estimate
+123,Liberia,4568298,0.0584%,1 Jul 2020,National annual projection
+124,Kuwait,4464521,0.0570%,1 Jan 2020,National annual estimate
+125,Oman,4445262,0.0568%,30 Sep 2020,Monthly national estimate
+126,Panama,4278500,0.0547%,1 Jul 2020,National annual projection
+127,Mauritania,4173077,0.0533%,1 Jul 2020,National annual projection
+128,Croatia,4058165,0.0519%,31 Dec 2019,National annual estimate
+129,Georgia,3716858,0.0475%,1 Jan 2020,National annual estimate
+130,Eritrea,3546000,0.0453%,1 Jul 2020,UN Projection
+131,Uruguay,3530912,0.0451%,30 Jun 2020,National annual projection
+132,Mongolia,3346976,0.0428%,10 Nov 2020,National population clock
+133,Bosnia and Herzegovina,3332593,0.0426%,1 Jul 2019,National annual estimate
+–,Puerto Rico (US),3193694,0.0408%,1 Jul 2019,National annual estimate
+134,Armenia,2963000,0.0379%,30 Jun 2020,National quarterly estimate
+135,Albania,2845955,0.0364%,1 Jan 2020,National annual estimate
+136,Lithuania,2795334,0.0357%,1 Oct 2020,Monthly national estimate
+137,Jamaica,2734093,0.0349%,31 Dec 2019,National semi-annual estimate
+138,Qatar,2723624,0.0348%,1 Sep 2020,Monthly national estimate
+139,Moldova,2640438,0.0337%,1 Jan 2020,National annual estimate
+140,Namibia,2504498,0.0320%,1 Jul 2020,National annual projection
+141,Botswana,2374698,0.0303%,1 Jul 2020,National annual projection
+142,Gambia,2335504,0.0298%,1 Jul 2018,National annual estimate
+143,Gabon,2176766,0.0278%,1 Jul 2020,National annual projection
+144,Slovenia,2097195,0.0268%,1 Apr 2020,National quarterly estimate
+145,North Macedonia,2076255,0.0265%,31 Dec 2019,National annual estimate
+146,Lesotho,2007201,0.0256%,10 Apr 2016,2016 census result
+147,Latvia,1898400,0.0243%,1 Oct 2020,Monthly national estimate
+–,Kosovo,1782115,0.0228%,31 Dec 2019,National annual estimate
+148,Guinea-Bissau,1624945,0.0208%,1 Jul 2020,National annual projection
+149,Bahrain,1503091,0.0192%,1 Jul 2018,National annual estimate
+150,Equatorial Guinea,1454789,0.0186%,1 Jul 2020,National annual estimate
+151,Trinidad and Tobago,1366725,0.0175%,30 Jun 2020,National annual estimate
+152,Estonia,1328976,0.0170%,1 Jan 2020,National annual estimate
+153,East Timor,1299412,0.0166%,1 Jul 2020,National annual projection
+154,Mauritius,1266000,0.0162%,1 Jul 2020,National semi-annual estimate
+155,Eswatini,1093238,0.0140%,11 May 2017,2017 census result
+156,Djibouti,962452,0.0123%,1 Jul 2018,National annual projection
+157,Fiji,889327,0.0114%,1 Jul 2019,National annual projection
+158,Cyprus,875900,0.0112%,31 Dec 2018,National annual estimate
+159,Comoros,758316,0.00969%,15 Dec 2017,2017 census result
+160,Bhutan,748931,0.00957%,1 Jul 2020,National annual projection
+161,Guyana,744962,0.00952%,1 Jul 2018,National annual estimate
+162,Solomon Islands,694619,0.00888%,1 Jul 2020,National annual projection
+–,Macau,685400,0.00876%,30 Jun 2020,National quarterly estimate
+163,Luxembourg,626108,0.00800%,1 Jan 2020,National annual estimate
+164,Montenegro,621873,0.00795%,1 Jan 2020,National semi-annual estimate
+–,Western Sahara,597000,0.00763%,1 Jul 2020,UN Projection
+165,Suriname,590100,0.00754%,1 Jul 2018,National annual estimate
+166,Cape Verde,556857,0.00712%,1 Jul 2020,National annual projection
+167,Malta,514564,0.00658%,31 Dec 2019,National annual estimate
+–,Transnistria,469000,0.00599%,1 Jan 2018,National annual estimate
+168,Brunei,459500,0.00587%,1 Jul 2019,National annual estimate
+169,Belize,419199,0.00536%,1 Jul 2020,National annual estimate
+170,Bahamas,389410,0.00498%,1 Jul 2020,National annual projection
+171,Maldives,383135,0.00490%,31 Dec 2019,National annual estimate
+172,Iceland,368010,0.00470%,30 Sep 2020,National quarterly estimate
+—,Northern Cyprus,351965,0.00450%,31 Dec 2017,National annual estimate
+173,Vanuatu,304500,0.00389%,1 Jul 2018,National annual estimate
+174,Barbados,287025,0.00367%,1 Jul 2020,UN Projection
+–,French Polynesia (France),278400,0.00356%,31 Dec 2019,National annual estimate
+–,New Caledonia (France),271407,0.00347%,14 Oct 2019,2019 census result
+–,Abkhazia,245424,0.00314%,1 Jan 2020,National annual estimate
+175,São Tomé and Príncipe,210240,0.00269%,1 Jul 2020,National annual projection
+176,Samoa,202506,0.00259%,1 Jul 2020,National annual projection
+177,Saint Lucia,178696,0.00228%,1 Jul 2018,National annual estimate
+–,Guam (US),172400,0.00220%,1 Jul 2018,National annual estimate
+–,Curaçao (Netherlands),156223,0.00200%,1 Jan 2020,National annual estimate
+–,Republic of Artsakh,148800,0.00190%,1 Jan 2020,National annual estimate
+178,Kiribati,120100,0.00153%,1 Jul 2018,National annual estimate
+–,Aruba (Netherlands),112269,0.00143%,30 Jun 2020,National quarterly estimate
+179,Grenada,112003,0.00143%,1 Jul 2020,UN Projection
+180,Saint Vincent and the Grenadines,110696,0.00141%,1 Jul 2020,National annual estimate
+–,Jersey (UK),107800,0.00138%,31 Dec 2019,National annual estimate
+181,F.S. Micronesia,104650,0.00134%,1 Jul 2020,National annual projection
+–,U.S. Virgin Islands (US),104578,0.00134%,1 Jul 2020,UN Projection
+182,Tonga,100651,0.00129%,30 Nov 2016,2016 census result
+183,Seychelles,98462,0.00126%,30 Jun 2020,National semi-annual estimate
+184,Antigua and Barbuda,97895,0.00125%,1 Jul 2020,National annual projection
+–,Isle of Man (UK),83314,0.00106%,24 Apr 2016,2016 census result
+185,Andorra,77543,0.000991%,31 Dec 2019,National annual estimate
+186,Dominica,71808,0.000918%,1 Jul 2020,UN Projection
+–,Cayman Islands (UK),69914,0.000893%,31 Dec 2019,National annual estimate
+–,Bermuda (UK),64054,0.000818%,1 Jul 2020,National annual projection
+–,Guernsey (UK),63276,0.000809%,30 Sep 2019,National quarterly estimate
+–,American Samoa (US),56700,0.000725%,1 Jul 2018,National annual estimate
+–,Greenland (Denmark),56367,0.000720%,1 Jul 2020,National quarterly estimate
+–,Northern Mariana Islands (US),56200,0.000718%,1 Jul 2018,National annual estimate
+187,Marshall Islands,55500,0.000709%,1 Jul 2018,National annual estimate
+–,South Ossetia,53532,0.000684%,15 Oct 2015,Preliminary 2015 census result
+188,Saint Kitts and Nevis,52823,0.000675%,1 Jul 2020,UN Projection
+–,Faroe Islands (Denmark),52703,0.000673%,1 Sep 2020,Monthly national estimate
+–,Turks and Caicos Islands (UK),42953,0.000549%,1 Jul 2019,National annual estimate
+–,Sint Maarten (Netherlands),40614,0.000519%,1 Jan 2018,National annual estimate
+189,Liechtenstein,38749,0.000495%,31 Dec 2019,National semi-annual estimate
+190,Monaco,38100,0.000487%,31 Dec 2019,National annual estimate
+–,Saint Martin (France),35334,0.000451%,1 Jan 2017,National annual estimate
+–,Gibraltar (UK),33691,0.000430%,1 Jul 2020,UN Projection
+191,San Marino,33630,0.000430%,31 Aug 2020,Monthly national estimate
+–,Åland Islands (Finland),30055,0.000384%,30 Sep 2020,Monthly national estimate
+–,British Virgin Islands (UK),30030,0.000384%,1 Jul 2020,UN Projection
+192,Palau,17900,0.000229%,1 Jul 2018,National annual estimate
+–,Cook Islands (NZ),15200,0.000194%,1 Jul 2018,National annual estimate
+–,Anguilla (UK),14869,0.000190%,1 Jul 2020,UN Projection
+–,Wallis and Futuna (France),11558,0.000148%,23 Jul 2018,2018 census result
+193,Nauru,11000,0.000141%,1 Jul 2018,National annual estimate
+194,Tuvalu,10507,0.000134%,12 Nov 2017,Preliminary 2017 census result
+–,Saint Barthélemy (France),9961,0.000127%,1 Jan 2017,National annual estimate
+–,Saint Pierre and Miquelon (France),5997,0%,1 Jan 2017,National annual estimate
+–,"Saint Helena, Ascensionand Tristan da Cunha (UK)",5633,00%,7 February 2016,2016 census result
+–,Montserrat (UK),4989,0%,1 Jul 2020,UN Projection
+–,Falkland Islands (UK),3198,0%,9 Oct 2016,2016 census result
+–,Christmas Island (Australia),1955,00%,30 Jun 2019,National annual estimate
+–,Niue (NZ),1784,0%,9 Mar 2017,2017 census result
+–,Norfolk Island (Australia),1735,0%,30 Jun 2019,National annual estimate
+–,Tokelau (NZ),1499,0%,18 Oct 2016,2016 census result
+195,Vatican City,825,0%,1 Feb 2019,Monthly national estimate
+–,Cocos (Keeling) Islands (Australia),555,0%,30 Jun 2019,National annual estimate
+–,Pitcairn Islands (UK),50,0%,1 Jan 2020,National annual estimate
+,World,7826036000,100%,10 Nov 2020,UN Projection

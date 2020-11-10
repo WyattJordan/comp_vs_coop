@@ -6,8 +6,8 @@ def coop_vs_comp(scenarios, rel_scores=None):
     examples, n_teams = scenarios.shape
 
     # Relationships between teams.
-    # 1 is perfectly competitive, -1 is perfectly cooperative
-    if rel_scores == None:
+    # 1 is perfectly competitive, 0 is perfectly cooperative
+    if rel_scores is None:
         rel_scores = np.ones([n_teams,n_teams])
         
     for i in range(examples):

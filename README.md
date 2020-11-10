@@ -95,7 +95,7 @@ The tesseract in motion.
 The probability of a randomly selected set of team sizes such that <img src="https://latex.codecogs.com/gif.latex?s_{f}>1.0"/> drops drastically when three teams are involved. In this case the probability becomes
 <p align="center">	
 <img src="https://latex.codecogs.com/gif.latex?P(s_{f}>1.0)=0.00188\leftarrow{n_i\in[10..50],i\in[1..3]}"/>
-
+ 
 <p align="center">	
 Plotting only instances where <img src="https://latex.codecogs.com/gif.latex?s_{f}>1.0"/>
 <p align="center">  
@@ -121,9 +121,24 @@ If we use the size of each fanbase for various sports leagues we can rank which 
 The friendliness score decreases as the number of teams increases which is consistent with the probabilities calculated above.  
 
 # What About Partial Cooperation Between Competing Teams?
-But even in competition there can be cooperation. Tournaments often provide opportunities for competiting teams to support one another in defeating a more formidable opponent. So let's edit our equations to account for this. 
+But even in competition there can be cooperation. Tournaments often provide opportunities for competiting teams to support one another via cheering or other means in defeating a more formidable opponent. So let's edit our equations to account for this. Let's say there is one main goal every team is striving for or against and they have a normalized score value which indicates their cooperation or hostility towards this goal (<img src="https://latex.codecogs.com/gif.latex?s_{i}"/>). If we have a vector <img src="https://latex.codecogs.com/gif.latex?S"/> containing <img src="https://latex.codecogs.com/gif.latex?s_{i}"/> for every team we can generate an appropriate relationship table <img src="https://latex.codecogs.com/gif.latex?R"/> between all teams. 
 
+<p align="center">	
+<img src="https://latex.codecogs.com/gif.latex?R=S\times{S^{T}}"/>
+
+Our calc.py expects relationships between 0 and 1 so let's scale this table and then multiply by 1/2 because teams are still primarily in competition and only in cooperation when it benefits them.  
+<p align="center">	
+<img src="https://latex.codecogs.com/gif.latex?R=\frac{1}{2}*(R-min(R))/max(R)"/>
+
+The new way to calculate the number of competitive connections is now:
+<p align="center">
+ <img src="https://latex.codecogs.com/gif.latex?n_{comp}=\sum_{i=1}^{n_{teams}}\sum_{k\ne{i}}^{n_{teams}}n_i*n_k*r_{i,k}"/>  
 
 # What About a Real World Example?
+Let's use countries as teams with size equal to their population and scores based on their democracy index ([population data](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population), [democracy data](https://en.wikipedia.org/wiki/Democracy_Index), [convert wiki tables to csv](https://wikitable2csv.ggor.de/)). Crunching these numbers we get a world friendliness score of:
+
+<p align="center">
+ <img src="https://latex.codecogs.com/gif.latex?s_f=0.3257"/>  
 
 # What About a Conclusion
+Clearly this result about the world's cooperation vs competition based on democracy is accurate and should have a major impact on your life. I did this more for the visualizations and because I thought the process was intriguing. There are many improvements that could be made if an accurate estimate of the world friendliness score was desired. The first would be using multiple indices for gauging relationships rather than just democracy score. This would also lead to multiple sets of teams based on the indices chosen (we only used nations here due to our chosen democracy index). Finally we would have to scale the strength of each relationship for each index based on the value structure of the individuals involved. Someone might not mind you adhere to their opposing political party if they value which sports team you support more than politics. To each their own.

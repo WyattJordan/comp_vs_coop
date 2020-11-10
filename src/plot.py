@@ -45,7 +45,7 @@ def make_gif(files, output, delay=100, repeat=True, **kwargs):
     # print('echo "-delay %d -loop %d %s %s"'                  
     os.system('convert -delay %d -loop %d %s %s'
               %(delay,loop," ".join(files),output))
-    for f in files:
-        os.remove(f)
+    # for f in files:
+    #     os.remove(f)
 
 
