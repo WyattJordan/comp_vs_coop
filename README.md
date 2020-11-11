@@ -31,7 +31,7 @@ Now to count the number of competitive relationships let's again assume both tea
 
 And again we sum this summation for every team but don't count relationships twice. The equivalent double summation on the right is how this formula is actully implemented on line 21 of calc.py.
 <p align="center">
- <img src="https://latex.codecogs.com/gif.latex?n_{comp}=\frac{1}{2}\sum_{i=1}^{n_{teams}}\sum_{k\ne{i}}^{n_{teams}}n_i*n_k=\sum_{i=1}^{n_{teams}} \sum_{k=i+1}^{n_{teams}}n_i*n_k"/>  
+ <img src="https://latex.codecogs.com/gif.latex?n_{comp}=\frac{1}{2}\sum_{i=1}^{n_{teams}}\sum_{k\ne{i}}^{n_{teams}}n_i*n_k=\sum_{i=1}^{n_{teams}}\sum_{k=i+1}^{n_{teams}}n_i*n_k"/>  
 
 
 For indicating if the set of teams is more cooperative or competitive we will simply use a "friendly" score set by:
